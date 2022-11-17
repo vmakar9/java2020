@@ -1,12 +1,14 @@
-package hw2.PC;
+package hw2.books;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-@Data
 @AllArgsConstructor
-public class Ultrabook extends PC{
-    public String graphic;
+@Data
+
+public class Book extends Papirus{
+    private int number_of_pages;
+    public String story;
 }

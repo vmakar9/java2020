@@ -1,4 +1,4 @@
-package hw2.User;
+package hw2.user;
 
 public class Main {
     public static void main(String[] args) {

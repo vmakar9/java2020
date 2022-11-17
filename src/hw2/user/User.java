@@ -1,4 +1,4 @@
-package hw2.User;
+package hw2.user;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
