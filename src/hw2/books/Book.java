@@ -11,4 +11,6 @@ import lombok.NoArgsConstructor;
 public class Book extends Papirus{
     private int number_of_pages;
     public String story;
+
+
 }
