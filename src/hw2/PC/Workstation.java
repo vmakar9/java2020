@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @AllArgsConstructor
-public class Workstation extends PC{
+public class Workstation extends Laptop{
     public String form;
 }

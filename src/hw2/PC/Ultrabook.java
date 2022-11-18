@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @AllArgsConstructor
-public class Ultrabook extends PC{
-    public String graphic;
+public class Ultrabook extends Laptop{
+    public String weight;
 }

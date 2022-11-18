@@ -7,4 +7,6 @@ import lombok.*;
 @Data
 public class PC {
     private String processor;
+    private String monitor;
+    private String ram;
 }

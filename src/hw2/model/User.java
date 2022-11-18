@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -14,6 +17,6 @@ public class User {
     private String email;
     private int age;
     private Gender gender;
-    private Skills skills;
+    private List<Skills> skills=new ArrayList<>();
     private Car car;
 }

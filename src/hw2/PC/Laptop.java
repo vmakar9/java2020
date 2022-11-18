@@ -10,4 +10,5 @@ import lombok.NoArgsConstructor;
 
 public class Laptop extends PC{
     private int battery;
+    private boolean touchpad;
 }
