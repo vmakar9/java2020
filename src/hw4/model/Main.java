@@ -74,7 +74,6 @@ public class Main {
                 Arrays.asList(new Skills("java",10),new Skills("js",10),new Skills("c++",10)),
                 new Car("lanos",2001,100)));
 
-        users1.stream().sorted((o1, o2) -> o2.getSkills().size()-o1.getSkills().size());
         System.out.println(users1);
     }
 }
