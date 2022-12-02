@@ -1,6 +1,7 @@
 package hw4.Users;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -14,7 +15,7 @@ public class Main {
         users.add(new User(30, "Vasyl"));
         users.add(new User(28, "Carl Jonson"));
 
-        users.sort((u1,u2) -> u1.getAge()-u2.getAge());
+        users.sort(Comparator.comparingInt(User::getAge));
         System.out.println(users);
 
         users.sort((u1,u2)-> u2.getAge()-u1.getAge());

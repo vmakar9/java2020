@@ -42,7 +42,6 @@ public class Main {
 //        System.out.println(users);
 
         TreeSet<User>users1 = new TreeSet<>();
-
         users1.add(new User(1,"vasya","pupkin","dfgreas@gmail.com",31,Gender.MALE,
                 Arrays.asList(new Skills("java",10),new Skills("js",10),new Skills("c++",10)),
                 new Car("toyota",2020,300)));
@@ -74,6 +73,8 @@ public class Main {
                 Arrays.asList(new Skills("java",10),new Skills("js",10),new Skills("c++",10)),
                 new Car("lanos",2001,100)));
 
-        System.out.println(users1);
+        System.out.print(users1);
+
+
     }
 }
